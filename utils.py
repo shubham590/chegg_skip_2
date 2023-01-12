@@ -44,7 +44,7 @@ def random_long_wait(min_time = 5 ,max_time = 10):
       Sleep the executon of scripts for x minutes where x is random value b/w [min_time,max_time]
     '''
     min_time,max_time = config.get('wait_after_queue_is_empty',[5,10])
-    tym = random.randint(min_time,max_time) * 60
+    tym = random.randint(min_time,max_time)
     log(f"Waiting for {tym} seconds")
     for _ in trange(tym):
       sleep(1)
