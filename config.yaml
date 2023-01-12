@@ -15,7 +15,7 @@ wait_time: [5,8]  #in secs
 # chosen from below given amount of time
 # After this, the script will send request again for new question
 
-wait_after_queue_is_empty: [0.1,0.35]  #in minutes say(8 minutes)
+wait_after_queue_is_empty: [5,12]  #in minutes say(8 minutes)
 
 telegram:
     token: 5635349506:AAFk2acgzgeLLORquK_sWZS-ZgdUuHMdv_Y
